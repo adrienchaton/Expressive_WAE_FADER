@@ -1,4 +1,6 @@
-# Expressive_WAE_FADER
+# Assisted Sound Sample Generation with Musical Conditioning in Adversarial Auto-Encoders
+
+
 
 The repository is a companion to the DAFx19 submission
 Adrien Bitton, Philippe Esling, Antoine Caillon, Martin Fouilleul: "Assisted Sound Sample Generation with Musical Conditioning in Adversarial Auto-Encoders".
