@@ -28,7 +28,7 @@ We plot log-scaled input mel-spectrograms and reconstructions. We only display t
 
 We plot the learned latent representations of different models and data subsets. 3-dimensional scatter plots are the raw latent coordinates, 2-dimensional are done with t-SNE (t-distributed Stochastic Neighbor Embedding). We use colors to render different attribute subsets: semitones, octaves and styles (playing technique or timbre domain).
 
-For WAE-Fader models, we as well show the evolution of the latent representation throughout the model training with adversarial latent classification. In this setting, the Fader latent discriminator tries to classify style attributes from the non-conditional encoder output **z**. In turn and after the $\alpha$ warmup has started, the encoder tries to fool the discriminator so that it's latent representation cannot be properly classified. It encourages an attribute-free latent code so that the decoder is pushed to learns its conditioning.
+For WAE-Fader models, we as well show the evolution of the latent representation throughout the model training with adversarial latent classification. In this setting, the Fader latent discriminator tries to classify style attributes from the non-conditional encoder output **z**. In turn and after the \alpha warmup has started, the encoder tries to fool the discriminator so that it's latent representation cannot be properly classified. It encourages an attribute-free latent code so that the decoder is pushed to learns its conditioning.
 
 ## ✿ Sound examples
 
