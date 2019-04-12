@@ -18,6 +18,18 @@ To this extent we train *auto-encoders* on an orchestral database of individual 
 
 The proposed model generates notes as magnitude spectrograms from any probabilistic latent code samples, with expressive control of orchestral timbres and playing styles. Its training data subsets can directly be visualized in the 3-dimensional latent representation. Waveform rendering can be done offline with the *Griffin-Lim algorithm*. In order to allow real-time interactions, we fine-tune the decoder with a pretrained magnitude spectrogram inversion network and embed the full waveform generation pipeline in a *plugin*. Moreover the encoder could be used to process new input samples, after manipulating their latent attribute representation, the decoder can generate sample variations as an *audio effect* would. Our solution remains rather light-weight and fast to train, it can directly be applied to other sound domains, including an *user's libraries* with *custom sound tags* that could be mapped to specific generative controls. As a result, it fosters creativity and intuitive audio style experimentations.
 
-## ✿ ABSTRACT
+## ✿ Additional visualizations
 
-hello
+**test spectrogram reconstructions**
+
+**latent spaces and adversarial training**
+
+## ✿ Sound examples
+
+**test set reconstructions GLA and MCNN**
+
+**random conditional note generations with WAE-style**
+
+**random conditional note generations with WAE-Fader**
+
+**expressive style and timbre synthesis**
