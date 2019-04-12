@@ -24,18 +24,24 @@ The proposed model generates notes as magnitude spectrograms from any probabilis
 
 We plot log-scaled input mel-spectrograms and reconstructions. We only display test set notes to assess the quality and generalization power of the models.
 
-**latent spaces and adversarial training**
+**Latent spaces and adversarial training**
 
 We plot the learned latent representations of different models and data subsets. 3-dimensional scatter plots are the raw latent coordinates, 2-dimensional are done with t-SNE (t-distributed Stochastic Neighbor Embedding). We use colors to render different attribute subsets: semitones, octaves and styles (playing technique or timbre domain).
 
-For WAE-Fader models, we as well show the evolution of the latent representation throughout the model training with adversarial latent classification. In this setting, the Fader latent discriminator tries to classify style attributes from the non-conditional encoder output **z**. In turn and after the α - warmup has started, the encoder tries to fool the discriminator so that its latent representation cannot be properly classified. It encourages an attribute-free latent code to push the decoder to learn its conditioning.
+For WAE-Fader models, we as well show the evolution of the latent representation throughout the model training with adversarial latent classification. In this setting, the Fader latent discriminator tries to classify style attributes from the non-conditional encoder output **z**. In turn and after the **α-warmup** has started, the encoder tries to fool the discriminator so that its latent representation cannot be properly classified. It encourages an attribute-free latent code and push the decoder to learn its conditioning.
 
 ## ✿ Sound examples
 
-**test set reconstructions GLA and MCNN**
+We may also upload on soundcloud as github audio streaming is often slow.
 
-**random conditional note generations with WAE-style**
+**Test set reconstructions GLA and MCNN**
 
-**random conditional note generations with WAE-Fader**
+We give test set reconstructions inverted to waveform with either GLA (iterative) or MCNN (feed-forward and realtime capable) to allow for individual listening and evaluation of the current audio-qualities we achieved.
 
-**expressive style and timbre synthesis**
+**Random conditional note generations with WAE-style and WAE-Fader**
+
+We give some random note samples, that were generated in the same way as for the note-conditional generative evaluation. Given a random latent point sampled from the model prior and random note targets with octave either in {3-4} (common to all instrument tessitura) or in {0-8} (full orchestral range), we decode with each model's style attribute and invert to waveform with either GLA or MCNN. Here we select the categorical style classes that correspond to each training data subset.
+
+We can see that accordingly to the evaluations of WAE-style, it does not render meaningful audio variations with respect to the target style attributes (both for playing techniques and timbres). Whereas, WAE-Fader produces consistent sound variaitons that express the desired target styles. It demonstrates its ability to efficiently learn and generalize the conditional controls to random samples from the prior, as validated by our evaluations.
+
+**Expressive style and timbre synthesis**
