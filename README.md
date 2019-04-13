@@ -37,7 +37,7 @@ At first is pre-classification, only the Fader classification is optimized witho
 <!--- <img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif" width="183" height="646"> <img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif" width="378" height="574">
 <img align="left" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif" width="183" height="646"> <img align="right" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif" width="378" height="574"> -->
 
-raw 3D latents             |  Solarized Ocean
+animated raw 3D latents    |  animated TSNE 2D latents
 :-------------------------:|:--------------------------------------------------:
 <img align="left" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif" width="183" height="646">  |  <img align="right" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif" width="378" height="574">
 
