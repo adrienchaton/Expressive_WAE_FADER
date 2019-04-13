@@ -34,7 +34,7 @@ For WAE-Fader models, we as well show the evolution of the latent representation
 
 At first is pre-classification, only the Fader classification is optimized without adversarial back-propagation in the encoder (α=0). After this and until the end of the first half of training epochs, (α:0➔4) is gradually increased to its target value and then remains fixed until the end of the training.
 
-![](https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif) ![](https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif)
+<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif" width="183" height="646">  <img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif" width="378" height="574">
 
 ## ✿ Sound examples
 
