@@ -55,6 +55,6 @@ We could for instance consider some Pizzimolo as *0.5 Pizzicato-secco + 0.5 Trem
 
 ## ✿ Upcoming
 
-+ Final plugin development
++ Final plugin development and demonstration
 + Code release and experiments on other sound libraries
 + Improved audio-quality and end-to-end waveform modelling
