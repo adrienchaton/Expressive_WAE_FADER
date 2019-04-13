@@ -38,7 +38,7 @@ The following animations display the evolution of the latent representation for 
 <img align="left" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif" width="183" height="646"> <img align="right" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif" width="378" height="574"> -->
 
 animated raw 3D latents    |  animated TSNE 2D latents
-:-------------------------:|:--------------------------------------------------:
+:--------------------------|:--------------------------------------------------:
 <img align="left" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif" width="183" height="646">  |  <img align="right" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif" width="378" height="574">
 
 ## ✿ Sound examples
