@@ -51,7 +51,7 @@ We can see that accordingly to the evaluations of WAE-style, it does not render 
 ♪ **Expressive style and timbre synthesis with WAE-Fader**
 
 Since we demonstrated the ability of WAE-Fader to generate and control random note samples consistently with each of its attribute subsets, we further explore the potential expressivity enabled when continuously mixing the learned *fader* style variables !
-We could for instance consider some Pizzimolo as *0.5 Pizzicato-secco + 0.5 Tremolo* or Clariolin as *0.5 Clarinet + 0.5 Violin*) or .. ?? 🚀
+We could for instance consider some Pizzimolo as *0.5 Pizzicato-secco + 0.5 Tremolo* or Clariolin as *0.5 Clarinet + 0.5 Violin*) or .. ?? ☆ﾟ.*･｡ﾟ
 
 ## ✿ Upcoming
 
