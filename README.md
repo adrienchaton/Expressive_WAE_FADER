@@ -24,7 +24,12 @@ The proposed model generates notes as magnitude spectrograms from any probabilis
 
 ♪ **Test spectrogram reconstructions**
 
-We plot log-scaled input Mel-spectrograms and corresponding auto-encoder reconstructions. We only display test set notes to assess the quality and generalization power of the models.
+We plot log-scaled input Mel-spectrogram magnitudes and corresponding WAE-Fader reconstructions. The two following are random test set notes from the ordinario timbre model (up) and the violin playing style model (down).
+
+<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_allinst_ordinario.pdf">
+
+<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_violin_allstyle.pdf">
+
 
 ♪ **Latent spaces and adversarial training**
 
