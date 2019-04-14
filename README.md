@@ -38,6 +38,16 @@ https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_r
 
 We plot the learned latent representations of different models and data subsets. 3-dimensional scatter plots are the raw latent coordinates, 2-dimensional projections are done with t-SNE (t-distributed Stochastic Neighbor Embedding). We use colors to highlight the different attribute subsets: **semitones** (#12 subset coloring in the first rows), **octaves** (#9 in the second rows) and **styles** (third rows for playing techniques or timbre domains).
 
+The following plots display the final latent representations learned by the models of the ablation study training on the 12 instrument subsets of SOL with all playing styles mixed. Accordingly the bottom row has coloring for these 12 timbre domains, which are the style attributes being classified in the WAE-Fader.
+
+<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2Ds_allinst_allstyle.png">
+
+https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2Ds_allinst_allstyle.pdf
+
+<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3Ds_allinst_allstyle.png">
+
+https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3Ds_allinst_allstyle.pdf
+
 For WAE-Fader models, we as well monitor the evolution of the latent representation throughout the model training and adversarial latent classification. In this setting, the Fader latent discriminator tries to classify style attributes from the non-conditional encoder output **z**. In turn and after the **α-warmup** has started, the encoder tries to fool the discriminator so that its latent representation cannot be properly classified. It encourages an attribute-free latent code and pushes the decoder to learn its conditioning. At first is pre-classification, only the Fader classification is optimized without adversarial back-propagation in the encoder (α=0). After this and until the end of the first half of training epochs, α is gradually increased to its target value (warmup:0➔4) and then remains fixed until the end of the training.
 
 The following animations display the evolution of the latent representation for a WAE-Fader model training on the 12 instrument subsets of SOL with all playing styles mixed. Accordingly, the bottom row has coloring for these 12 timbre domains, the style attributes of the WAE-Fader, being classified.
