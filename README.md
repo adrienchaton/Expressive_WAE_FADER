@@ -7,10 +7,10 @@ Preliminary works can be accessed at https://github.com/nebularnoise/serge.
 An Arxiv pre-print is also being processed and online soon.
 
 
-━━━ ☆ﾟ.*･｡ﾟ This demonstration repository is under construction, sound examples, visualizations and additional results from the final experiment will be uploaded, as well as codes and plugin implementation after the reviewing process.
+☆ﾟ This demonstration repository is under construction, sound examples, visualizations and additional results from the final experiment will be uploaded, as well as codes and plugin implementation after the reviewing process.
 
 
-## ✿ ABSTRACT
+## ABSTRACT
 
 *Deep generative neural networks* have thrived in the field of computer vision, enabling unprecedented intelligent image processes. Yet the results in audio remain less advanced and many applications are still to be investigated. Our project targets real-time sound synthesis from a reduced set of high-level parameters, including semantic controls that can be adapted to different sound libraries and specific tags. These generative variables should allow expressive modulations of target musical qualities and continuously mix into new styles.
 
@@ -20,7 +20,7 @@ The proposed model generates notes as magnitude spectrograms from any probabilis
 
 ♪ **WAE-Fader implementation:** the model uses a non-conditional encoder with *Batch-Norm* (BN), the decoder is *conditional* with *Adaptive Instance Normalization* (AdaIN) and *Feature Wise Linear Modulation* (FiLM). The WAE latent regularization uses *MMD-Rbf* and isotropic *gaussian prior*. The encoder adversarially trains against a *Fader* latent discriminator to enforce the decoder conditioning. Waveform synthesis is made realtime capable by pairing the decoder with a *Multi-head Convolution Neural Network* (MCNN).
 
-## ✿ Additional visualizations
+## Additional visualizations
 
 ♪ **Test spectrogram reconstructions**
 
@@ -41,7 +41,7 @@ animated raw 3D latents    |  animated TSNE 2D latents
 :-------------------------:|:--------------------------------------------------:
 <img align="left" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif" width="183" height="646">  |  <img align="right" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif" width="378" height="574">
 
-## ✿ Sound examples
+## Sound examples
 
 We may also upload on soundcloud as github audio streaming is often slow.
 
