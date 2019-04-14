@@ -37,6 +37,8 @@ We plot log-scaled input Mel-spectrogram magnitudes and corresponding WAE-Fader 
     </embed>
 </object>
 
+[embed]https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_allinst_ordinario.pdf[/embed]
+
 
 
 ♪ **Latent spaces and adversarial training**
