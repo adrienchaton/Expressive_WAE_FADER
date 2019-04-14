@@ -31,6 +31,14 @@ We plot log-scaled input Mel-spectrogram magnitudes and corresponding WAE-Fader 
 <img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_violin_allstyle.pdf">
 
 
+<object data="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_allinst_ordinario.pdf" type="application/pdf" width="824px" height="151px">
+    <embed src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_allinst_ordinario.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_allinst_ordinario.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+
+
 ♪ **Latent spaces and adversarial training**
 
 We plot the learned latent representations of different models and data subsets. 3-dimensional scatter plots are the raw latent coordinates, 2-dimensional projections are done with t-SNE (t-distributed Stochastic Neighbor Embedding). We use colors to highlight the different attribute subsets: **semitones** (#12 subset coloring in the first rows), **octaves** (#9 in the second rows) and **styles** (third rows for playing techniques or timbre domains).
