@@ -38,9 +38,9 @@ https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_r
 
 We plot the learned latent representations of different models and data subsets. 3-dimensional scatter plots are the raw latent coordinates, 2-dimensional projections are done with t-SNE (t-distributed Stochastic Neighbor Embedding). We use colors to highlight the different attribute subsets: **semitones** (#12 subset coloring in the first rows), **octaves** (#9 in the second rows) and **styles** (third rows for playing techniques or timbre domains).
 
-*WAE-MMD* is not conditioned, only MMD-Rbf regularization is applied
-*WAE-note/style* is note/style conditional
-*WAE-Fader* trains an additional adversarial objective against the Fader latent discriminator that classifies style attributes
++ *WAE-MMD* is not conditioned, only MMD-Rbf regularization is applied
++ *WAE-note/style* is note/style conditional
++ *WAE-Fader* trains an additional adversarial objective against the Fader latent discriminator that classifies style attributes
 
 ☽ The following plots display the final latent representations learned by the models of the ablation study training on the 12 instrument subsets of SOL with all playing styles mixed. Accordingly the bottom row has coloring for these 12 timbre domains, which are the style attributes being classified in the WAE-Fader.
 
