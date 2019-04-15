@@ -7,7 +7,7 @@ Preliminary works can be accessed at https://github.com/adrienchaton/Timbre_MoVE
 
 An Arxiv pre-print can be accessed at https://arxiv.org/abs/1904.06215. However, the paper is **not reviewed** yet.
 
-☆ﾟ This demonstration repository is under construction, sound examples, visualizations and additional results from the final experiment will be uploaded, as well as codes and plugin implementation after the reviewing process.
+☆ﾟ This demonstration repository is in progress, additional results from the final experiment will be uploaded, as well as codes and plugin implementation after the reviewing process.
 
 
 ## ABSTRACT
