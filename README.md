@@ -111,11 +111,19 @@ https://soundcloud.com/user-992344055/sets/cond_note_gen
 
 ♪ **Expressive style and timbre synthesis with WAE-Fader**
 
+We as well give conditional notes generated with WAE-Fader models conditioned on playing styles of other instruments.
+
+**XXXXX**
+
 Since we demonstrated the ability of WAE-Fader to generate and control random note samples consistently with each of its attribute subsets, we further explore the potential expressivity enabled when continuously mixing the learned *fader* style variables. We could for instance consider some Pizzimolo as *0.5 Pizzicato-secco + 0.5 Tremolo* or Clariolin as *0.5 Clarinet + 0.5 Violin* or .. ?? ☆ﾟ.*･｡ﾟ
+
+**XXXXX**
 
 ♪ **{WAE-Fader ☉ MCNN} waveform synthesis**
 
 We give feed-forward inversions to waveform with MCNN (real-time capable) to allow for individual listening and evaluation of the audio quality we achieve in this setting. The MCNN directly inverts from the Mel-frequencies, however, the results are perfectible and we currently work on improved waveform modelling for real-time high-quality sound synthesis. This will ultimately be used for the plugin development, so that it runs real-time with GPU.
+
+**XXXXX**
 
 ## ✿ Upcoming
 
