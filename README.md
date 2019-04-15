@@ -68,8 +68,8 @@ For WAE-Fader models, we as well monitor the evolution of the latent representat
 
 The following animations display the evolution of the latent representation for a WAE-Fader model training on the 12 instrument subsets of SOL with all playing styles mixed. Accordingly, the bottom row has coloring for these 12 timbre domains, the style attributes of the WAE-Fader, being classified.
 
-<!--- <img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif" width="183" height="646"> <img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif" width="378" height="574">
-<img align="left" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif" width="183" height="646"> <img align="right" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif" width="378" height="574"> -->
+<!--- <img src="figures/RAW3D_anim.gif" width="183" height="646"> <img src="figures/TSNE2D_anim.gif" width="378" height="574">
+<img align="left" src="figures/RAW3D_anim.gif" width="183" height="646"> <img align="right" src="figures/TSNE2D_anim.gif" width="378" height="574"> -->
 
 animated raw 3D latents    |  animated TSNE 2D latents
 :-------------------------:|:--------------------------------------------------:
