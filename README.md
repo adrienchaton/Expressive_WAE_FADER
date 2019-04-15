@@ -93,6 +93,22 @@ We give some random note samples, that were generated in the same way as for the
 
 We can see that accordingly to the evaluations of WAE-style, it does not render meaningful audio variations with respect to the target style attributes (both for playing techniques and timbres). Whereas, WAE-Fader produces consistent sound variations that express the desired target qualities. It demonstrates its ability to efficiently learn and generalize the conditional controls to random samples from the prior, as validated by our final evaluations.
 
+We have the following models with playing style conditioning:
+
++ WAE-style on violin playing styles, series of: sustained ; short ; non-vibrato ; ordinario ; staccato ; pizzicato-secco ; medium-vibrato-short ; tremolo ; medium-vibrato-sustained ; pizzicato-l-vib (o34)
+
++ WAE-fader on violin playing styles, series of: sustained ; short ; non-vibrato ; ordinario ; staccato ; pizzicato-secco ; medium-vibrato-short ; tremolo ; medium-vibrato-sustained ; pizzicato-l-vib (o34)
+
+We have the following models with timbre (instrument) conditioning:
+
++ WAE-style on ordinario timbres, series of: piano ; oboe ; english-horn ; flute ; bassoon ; violin ; alto-saxophone ; tenor-trombone ; clarinet ; french-horn ; violoncello ; trumpet (o34)
+
++ WAE-fader on ordinario timbres, series of: piano ; tenor-trombone ; english-horn ; alto-saxophone ;  oboe ; flute ; clarinet ; bassoon ; french-horn ; violoncello ; trumpet ; violin (o34)
+
++ WAE-fader on ordinario timbres, series of: piano ; tenor-trombone ; english-horn ; alto-saxophone ;  oboe ; flute ; clarinet ; bassoon ; french-horn ; violoncello ; trumpet ; violin (o9)
+
+https://soundcloud.com/user-992344055/sets/cond_note_gen
+
 ♪ **Expressive style and timbre synthesis with WAE-Fader**
 
 Since we demonstrated the ability of WAE-Fader to generate and control random note samples consistently with each of its attribute subsets, we further explore the potential expressivity enabled when continuously mixing the learned *fader* style variables. We could for instance consider some Pizzimolo as *0.5 Pizzicato-secco + 0.5 Tremolo* or Clariolin as *0.5 Clarinet + 0.5 Violin* or .. ?? ☆ﾟ.*･｡ﾟ
