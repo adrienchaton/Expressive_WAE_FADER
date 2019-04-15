@@ -26,11 +26,11 @@ The proposed model generates notes as magnitude spectrograms from any probabilis
 
 We plot log-scaled input Mel-spectrogram magnitudes and corresponding WAE-Fader reconstructions. The two following are random test set notes from the *ordinario timbre model* (up) and the *violin playing style model* (down).
 
-<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_allinst_ordinario.png">
+<img src="figures/Fader_rec_allinst_ordinario.png">
 
 https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_allinst_ordinario.pdf
 
-<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_violin_allstyle.png">
+<img src="figures/Fader_rec_violin_allstyle.png">
 
 https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/Fader_rec_violin_allstyle.pdf
 
@@ -44,23 +44,23 @@ We plot the learned latent representations of different models and data subsets.
 
 ☽ The following plots display the final latent representations learned by the models of the ablation study training on the 12 instrument subsets of SOL with all playing styles mixed. Accordingly the bottom row has coloring for these 12 timbre domains, which are the style attributes being classified in the WAE-Fader.
 
-<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2Ds_allinst_allstyle_mod.png">
+<img src="figures/TSNE2Ds_allinst_allstyle_mod.png">
 
 https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2Ds_allinst_allstyle.pdf
 
 WAE-MMD (only regularization, no conditioning) mainly highlights octave classes (2nd row) while WAE-note more strongly relates to the style subsets (timbre domains), as the note conditioning already accounts for these features. WAE-style and WAE-Fader both tend to equally mix each type (row) of attribute.
 
-<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3Ds_allinst_allstyle.png">
+<img src="figures/RAW3Ds_allinst_allstyle.png">
 
 https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3Ds_allinst_allstyle.pdf
 
 ☽ The following plots display the final latent representations learned by the models of the ablation study training on the 10 playing style subsets of the violin. Accordingly the bottom row has coloring for these 10 playing style domains, which are the style attributes being classified in the WAE-Fader.
 
-<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2Ds_violin_allstyle_mod.png">
+<img src="figures/TSNE2Ds_violin_allstyle_mod.png">
 
 https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2Ds_violin_allstyle.pdf
 
-<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3Ds_violin_allstyle.png">
+<img src="figures/RAW3Ds_violin_allstyle.png">
 
 https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3Ds_violin_allstyle.pdf
 
@@ -73,7 +73,7 @@ The following animations display the evolution of the latent representation for 
 
 animated raw 3D latents    |  animated TSNE 2D latents
 :-------------------------:|:--------------------------------------------------:
-<img align="left" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3D_anim.gif" width="183" height="646">  |  <img align="right" src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2D_anim.gif" width="378" height="574">
+<img align="left" src="figures/RAW3D_anim.gif" width="183" height="646">  |  <img align="right" src="figures/TSNE2D_anim.gif" width="378" height="574">
 
 ## Sound examples
 
