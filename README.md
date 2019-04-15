@@ -56,7 +56,7 @@ https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3Ds_
 
 ☽ The following plots display the final latent representations learned by the models of the ablation study training on the 10 playing style subsets of the violin. Accordingly the bottom row has coloring for these 10 playing style domains, which are the style attributes being classified in the WAE-Fader.
 
-<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2Ds_violin_allstyle.png">
+<img src="https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2Ds_violin_allstyle_mod.png">
 
 https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/TSNE2Ds_violin_allstyle.pdf
 
