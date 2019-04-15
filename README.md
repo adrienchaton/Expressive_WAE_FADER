@@ -4,8 +4,7 @@ This repository is a companion to the DAFx19 submission:
 Adrien Bitton, Philippe Esling, Antoine Caillon, Martin Fouilleul, "Assisted Sound Sample Generation with Musical Conditioning in Adversarial Auto-Encoders".
 
 Preliminary works can be accessed at https://github.com/nebularnoise/serge.
-An Arxiv pre-print is also being processed and online soon.
-
+An Arxiv pre-print can be accessed at https://arxiv.org/abs/1904.06215. However, the paper is **not reviewed** yet.
 
 ☆ﾟ This demonstration repository is under construction, sound examples, visualizations and additional results from the final experiment will be uploaded, as well as codes and plugin implementation after the reviewing process.
 
