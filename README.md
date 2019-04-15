@@ -66,7 +66,7 @@ https://github.com/adrienchaton/Expressive_WAE_FADER/blob/master/figures/RAW3Ds_
 
 For WAE-Fader models, we as well monitor the evolution of the latent representation throughout the model training and adversarial latent classification. In this setting, the Fader latent discriminator tries to classify style attributes from the non-conditional encoder output **z**. In turn and after the **α-warmup** has started, the encoder tries to fool the discriminator so that its latent representation cannot be properly classified. It encourages an attribute-free latent code and pushes the decoder to learn its conditioning. At first is pre-classification, only the Fader classification is optimized without adversarial back-propagation in the encoder (α=0). After this and until the end of the first half of training epochs, α is gradually increased to its target value (warmup:0➔4) and then remains fixed until the end of the training.
 
-The following animations display the evolution of the latent representation for a WAE-Fader model training on the 12 instrument subsets of SOL with all playing styles mixed. Accordingly, the bottom row has coloring for these 12 timbre domains, the style attributes of the WAE-Fader, being classified.
+☽ The following animations display the evolution of the latent representation for a WAE-Fader model training on the 12 instrument subsets of SOL with all playing styles mixed. Accordingly, the bottom row has coloring for these 12 timbre domains, the style attributes of the WAE-Fader, being classified.
 
 <!--- <img src="figures/RAW3D_anim.gif" width="183" height="646"> <img src="figures/TSNE2D_anim.gif" width="378" height="574">
 <img align="left" src="figures/RAW3D_anim.gif" width="183" height="646"> <img align="right" src="figures/TSNE2D_anim.gif" width="378" height="574"> -->
@@ -81,11 +81,11 @@ We may also upload on soundcloud as github audio streaming is often slow.
 
 ♪ **Test set reconstructions inverted with GLA**
 
-We give test set spectrogram reconstructions inverted to waveform with either GLA (iterative) or MCNN (feed-forward and realtime capable) to allow for individual listening and evaluation of the current audio qualities we achieved.
+We give test set Mel-spectrogram magnitude reconstructions inverted to waveform with GLA (iterative) to allow for individual listening and evaluation of this "reference" audio quality. Since we train on Mel-frequencies, we approximate the generated magnitudes to the linear scale and perform GLA for 100 to 300 iterations. This induces an inherent loss of audio-quality and latency that prevents from live interactions.
 
 ♪ **Random conditional note generations with WAE-style or WAE-Fader**
 
-We give some random note samples, that were generated in the same way as for the note-conditional generative evaluation. Given a random latent point sampled from the model prior and random note targets with octave either in {3-4} (common to all instrument tessitura) or in {0-8} (full orchestral range), we decode on each model's style attribute and invert to waveform with either GLA or MCNN. Here we control the categorical style classes that correspond to each training data subset.
+We give some random note samples, that were generated in the same way as for the note-conditional generative evaluation. Given a random latent point sampled from the model prior and random note targets with octave either in {3-4} (common to all instrument tessitura) or in {0-8} (full orchestral range), we decode on each model's style attribute and invert to waveform with GLA. Here we control the categorical style classes that correspond to each training data subset.
 
 We can see that accordingly to the evaluations of WAE-style, it does not render meaningful audio variations with respect to the target style attributes (both for playing techniques and timbres). Whereas, WAE-Fader produces consistent sound variations that express the desired target qualities. It demonstrates its ability to efficiently learn and generalize the conditional controls to random samples from the prior, as validated by our final evaluations.
 
@@ -94,6 +94,8 @@ We can see that accordingly to the evaluations of WAE-style, it does not render 
 Since we demonstrated the ability of WAE-Fader to generate and control random note samples consistently with each of its attribute subsets, we further explore the potential expressivity enabled when continuously mixing the learned *fader* style variables. We could for instance consider some Pizzimolo as *0.5 Pizzicato-secco + 0.5 Tremolo* or Clariolin as *0.5 Clarinet + 0.5 Violin* or .. ?? ☆ﾟ.*･｡ﾟ
 
 ♪ **{WAE-Fader ☉ MCNN} waveform synthesis**
+
+We give feed-forward inversions to waveform with MCNN (real-time capable) to allow for individual listening and evaluation of the audio quality we achieve in this setting. The MCNN directly inverts from the Mel-frequencies, however, the results are perfectible and we currently work on improved waveform modelling for real-time high-quality sound synthesis. This will ultimately be used for the plugin development, so that it runs real-time with GPU.
 
 ## ✿ Upcoming
 
