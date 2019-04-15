@@ -81,7 +81,7 @@ We may also upload on soundcloud as github audio streaming is often slow.
 
 ♪ **Test set reconstructions inverted with GLA**
 
-We give test set Mel-spectrogram magnitude reconstructions inverted to waveform with GLA (iterative) to allow for individual listening and evaluation of this "reference" audio quality. Since we train on Mel-frequencies, we approximate the generated magnitudes to the linear scale and perform GLA for 100 to 300 iterations. This induces an inherent loss of audio-quality and latency that prevents from live interactions.
+We give test set Mel-spectrogram magnitude reconstructions inverted to waveform with GLA (iterative) to allow for individual listening and evaluation of this initial audio quality. Since we train on Mel-frequencies, we approximate the generated magnitudes to the linear scale and perform GLA for 100 to 300 iterations. This induces an inherent loss of audio-quality and latency that prevents from live interactions.
 
 ♪ **Random conditional note generations with WAE-style or WAE-Fader**
 
