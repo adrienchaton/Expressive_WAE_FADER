@@ -79,7 +79,7 @@ animated raw 3D latents    |  animated TSNE 2D latents
 
 We may also upload on soundcloud as github audio streaming is often slow.
 
-♪ **Test set reconstructions inverted with GLA or MCNN**
+♪ **Test set reconstructions inverted with GLA**
 
 We give test set spectrogram reconstructions inverted to waveform with either GLA (iterative) or MCNN (feed-forward and realtime capable) to allow for individual listening and evaluation of the current audio qualities we achieved.
 
@@ -92,6 +92,8 @@ We can see that accordingly to the evaluations of WAE-style, it does not render 
 ♪ **Expressive style and timbre synthesis with WAE-Fader**
 
 Since we demonstrated the ability of WAE-Fader to generate and control random note samples consistently with each of its attribute subsets, we further explore the potential expressivity enabled when continuously mixing the learned *fader* style variables. We could for instance consider some Pizzimolo as *0.5 Pizzicato-secco + 0.5 Tremolo* or Clariolin as *0.5 Clarinet + 0.5 Violin* or .. ?? ☆ﾟ.*･｡ﾟ
+
+♪ **{WAE-Fader ☉ MCNN} waveform synthesis**
 
 ## ✿ Upcoming
 
