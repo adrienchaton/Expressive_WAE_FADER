@@ -77,11 +77,15 @@ animated raw 3D latents    |  animated TSNE 2D latents
 
 ## Sound examples
 
-We may also upload on soundcloud as github audio streaming is often slow.
+We host on soundcloud the audio files for streaming faster.
 
 ♪ **Test set reconstructions inverted with GLA**
 
 We give test set Mel-spectrogram magnitude reconstructions inverted to waveform with GLA (iterative) to allow for individual listening and evaluation of this initial audio quality. Since we train on Mel-frequencies, we approximate the generated magnitudes to the linear scale and perform GLA for 100 to 300 iterations. This induces an inherent loss of audio-quality and latency that prevents from live interactions.
+
+https://soundcloud.com/user-992344055/sets/test_set_note_rec
+
+Each input sample is followed with a model reconstruction inverted with GLA. We show results of WAE-style and WAE-Fader both conditioned on the playing styles of the violin. Plus the reconstructions of WAE-Fader trained on playing styles of other instruments: french-horn, clarinet, piano and trumpet.
 
 ♪ **Random conditional note generations with WAE-style or WAE-Fader**
 
