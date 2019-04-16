@@ -139,7 +139,11 @@ https://soundcloud.com/user-992344055/sets/express_note_gen
 
 We give feed-forward inversions to waveform with MCNN (real-time capable) to allow for individual listening and evaluation of the audio quality we achieve in this setting. The MCNN directly inverts from the Mel-frequencies, however, the results are perfectible and we currently work on improved waveform modelling for real-time high-quality sound synthesis. This will ultimately be used for the plugin development, so that it runs real-time with GPU.
 
-**XXXXX**
+The following audio files are both feed-forward waveform reconstructions and conditional note generations.
+
+We fine-tune the WAE-Fader ordinario timbre model with a pretrained MCNN and achieve the following audio quality for train and test set note reconstructions as well as for (categorical) conditional note generations. We as well show results for the fine-tuning with the violin playing style model.
+
+https://soundcloud.com/user-992344055/sets/waefader_mcnn_audio
 
 ## ✿ Upcoming
 
