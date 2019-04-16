@@ -22,7 +22,13 @@ The proposed model generates notes as magnitude spectrograms from any probabilis
 
 The following sections detail some materials that could not be included in the paper submission:
 + [Additional visualizations](#Additional-visualizations)
++ *Test spectrogram reconstructions*
++ *Latent spaces and adversarial training*
 + [Sound examples](#Sound-examples)
++ *Test set reconstructions inverted with GLA*
++ *Random conditional note generations with WAE-style or WAE-Fader*
++ *Expressive style and timbre synthesis with WAE-Fader*
++ *{WAE-Fader ☉ MCNN} waveform synthesis*
 
 ## Additional visualizations
 
