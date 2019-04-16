@@ -119,7 +119,11 @@ https://soundcloud.com/user-992344055/sets/cond_note_gen_waefader
 
 Since we demonstrated the ability of WAE-Fader to generate and control random note samples consistently with each of its attribute subsets, we further explore the potential expressivity enabled when continuously mixing the learned *fader* style variables. We could for instance imagine some "Pizzimolo" as *0.5 Pizzicato-secco + 0.5 Tremolo* or "Clariolin" as *0.5 Clarinet + 0.5 Violin* or .. ?? ☆ﾟ.*･｡ﾟ
 
-**XXXXX**
+The following audio files are conditional notes generated with expressive attribute control in WAE-Fader. We again decode series of note variations from any random latent coordinate (along with random note target) by mixing two continuous attribute conditions. We select two model attributes, either ordinario timbres or playing styles from the violin, and continuously mix their one-hot codes (including to conditions above 1) rather than inputing single categorical style conditions.
+
+This intends to produce sound hybrids and diverse style variations around the learned attributes. It gives a glimpse of the sounds that could be intuitively explored with WAE-Fader in a real-time interactive setting. For the violin playing styles, we show some mixes of *pizzicato-secco + tremolo* ; *tremolo + pizzicato-l-vib* and *short + medium-vibrato-sustained*. For the ordinario timbres, we show some mixes of *clarinet + violin* ; *oboe + english-horn* ; *alto-saxophone + french-horn* ; *trumpet + piano* ; *bassoon + violoncello* and *flute + violoncello*.
+
+https://soundcloud.com/user-992344055/sets/express_note_gen
 
 ♪ **{WAE-Fader ☉ MCNN} waveform synthesis**
 
