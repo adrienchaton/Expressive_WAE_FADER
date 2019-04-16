@@ -35,3 +35,16 @@ Each file contains series of note variations separated with a silence. Each seri
 We have the following models with playing style conditioning: french-horn ; tenor-trombone ; clarinet ; piano
 
 https://soundcloud.com/user-992344055/sets/cond_note_gen_waefader
+
+♪ The following audio files are conditional notes generated with expressive attribute control in WAE-Fader. We again decode series of note variations from any random latent coordinate (along with random note target) by mixing two continuous attribute conditions.
+
+We select two model attributes, either ordinario timbres or playing styles from the violin, and continuously mix their one-hot codes (including to conditions above 1) rather than inputing single categorical style conditions.
+
+This intends to produce sound hybrids and diverse style variations around the learned attributes. It gives a glimpse of the sounds that could be intuitively explored with WAE-Fader in a real-time interactive setting.
+
+For the violin playing styles, we show some mixes of *pizzicato-secco + tremolo* ; *tremolo + pizzicato-l-vib* and *short + medium-vibrato-sustained*.
+
+For the ordinario timbres, we show some mixes of *clarinet + violin* ; *oboe + english-horn* ; *alto-saxophone + french-horn* ; *trumpet + piano* ; *bassoon + violoncello* and *flute + violoncello*.
+
+
+https://soundcloud.com/user-992344055/sets/express_note_gen
