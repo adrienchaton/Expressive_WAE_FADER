@@ -21,7 +21,8 @@ The proposed model generates notes as magnitude spectrograms from any probabilis
 ♪ **WAE-Fader implementation:** the model uses a non-conditional encoder with *Batch-Norm* (BN), the decoder is *conditional* with *Adaptive Instance Normalization* (AdaIN) and *Feature Wise Linear Modulation* (FiLM). The WAE latent regularization uses *MMD-Rbf* and isotropic *gaussian prior*. The encoder adversarially trains against a *Fader* latent discriminator to enforce the decoder conditioning. Waveform synthesis is made realtime capable by pairing the decoder with a *Multi-head Convolution Neural Network* (MCNN).
 
 The following sections detail some materials that could not be included in the paper submission:
-  * [Additional visualizations](#Additional-visualizations)
++ [Additional visualizations](#Additional-visualizations)
++ [Sound examples](#Sound-examples)
 
 ## Additional visualizations
 
