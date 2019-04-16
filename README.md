@@ -117,7 +117,7 @@ We have the following models with playing style conditioning: french-horn ; teno
 
 https://soundcloud.com/user-992344055/sets/cond_note_gen_waefader
 
-Since we demonstrated the ability of WAE-Fader to generate and control random note samples consistently with each of its attribute subsets, we further explore the potential expressivity enabled when continuously mixing the learned *fader* style variables. We could for instance consider some Pizzimolo as *0.5 Pizzicato-secco + 0.5 Tremolo* or Clariolin as *0.5 Clarinet + 0.5 Violin* or .. ?? ☆ﾟ.*･｡ﾟ
+Since we demonstrated the ability of WAE-Fader to generate and control random note samples consistently with each of its attribute subsets, we further explore the potential expressivity enabled when continuously mixing the learned *fader* style variables. We could for instance imagine some "Pizzimolo" as *0.5 Pizzicato-secco + 0.5 Tremolo* or "Clariolin" as *0.5 Clarinet + 0.5 Violin* or .. ?? ☆ﾟ.*･｡ﾟ
 
 **XXXXX**
 
