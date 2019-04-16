@@ -48,3 +48,10 @@ For the ordinario timbres, we show some mixes of *clarinet + violin* ; *oboe + e
 
 
 https://soundcloud.com/user-992344055/sets/express_note_gen
+
+
+♪ The following audio files are both feed-forward waveform reconstructions and conditional note generations.
+
+We fine-tune the WAE-Fader ordinario timbre model with a pretrained MCNN and achieve the following audio quality for train and test set note reconstructions as well as for (categorical) conditional note generations. We as well show results for the fine-tuning with the violin playing style model.
+
+https://soundcloud.com/user-992344055/sets/waefader_mcnn_audio
