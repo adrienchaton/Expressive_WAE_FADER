@@ -137,7 +137,7 @@ https://soundcloud.com/user-992344055/sets/express_note_gen
 
 ♪ **{WAE-Fader ☉ MCNN} waveform synthesis**
 
-We give feed-forward inversions to waveform with MCNN (real-time capable) to allow for individual listening and evaluation of the audio quality we achieve in this setting. The MCNN directly inverts from the Mel-frequencies, however, the results are perfectible and we currently work on improved waveform modelling for real-time high-quality sound synthesis. This will ultimately be used for the plugin development, so that it runs real-time with GPU.
+We give feed-forward inversions to waveform with MCNN (real-time capable) to allow for individual listening and evaluation of the audio quality we achieve in this setting. The MCNN directly inverts from the Mel-frequencies, however, the results are perfectible and we currently work on improved waveform modeling for real-time high-quality sound synthesis. This will ultimately be used for the plugin development, so that it runs real-time with GPU.
 
 The following audio files are both feed-forward waveform reconstructions and conditional note generations.
 
@@ -149,4 +149,4 @@ https://soundcloud.com/user-992344055/sets/waefader_mcnn_audio
 
 + Final plugin development and demonstration
 + Code release and experiments on other sound libraries
-+ Improved audio-quality and end-to-end waveform modelling
++ Improved audio-quality and end-to-end waveform modeling
