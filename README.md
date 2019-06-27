@@ -1,11 +1,10 @@
 # Assisted Sound Sample Generation with Musical Conditioning in Adversarial Auto-Encoders
 
-This repository is a companion to the DAFx19 submission:
-Adrien Bitton, Philippe Esling, Antoine Caillon, Martin Fouilleul, "Assisted Sound Sample Generation with Musical Conditioning in Adversarial Auto-Encoders".
+This repository is a companion to the paper presented at DAFx-19 (22nd International Conference on Digital Audio Effects, Birmingham, UK): Adrien Bitton, Philippe Esling, Antoine Caillon, Martin Fouilleul, "Assisted Sound Sample Generation with Musical Conditioning in Adversarial Auto-Encoders".
 
-Preliminary works can be accessed at https://github.com/adrienchaton/Timbre_MoVE and https://github.com/nebularnoise/serge.
+Preliminary works can be accessed at https://github.com/acids-ircam/Timbre_MoVE and https://github.com/nebularnoise/serge.
 
-An Arxiv pre-print can be accessed at https://arxiv.org/abs/1904.06215. However, the paper is **not reviewed** yet.
+An Arxiv pre-print can be accessed at https://arxiv.org/abs/1904.06215.
 
 ☆ﾟ This demonstration repository is in progress, additional results from the final experiment will be uploaded, as well as codes and plugin implementation after the reviewing process.
 
